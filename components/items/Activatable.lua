@@ -1,0 +1,1 @@
+Activatable = Component(function(self) end)

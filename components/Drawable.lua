@@ -1,0 +1,1 @@
+Drawable = Component(function(self) end)

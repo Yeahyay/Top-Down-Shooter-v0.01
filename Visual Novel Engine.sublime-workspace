@@ -1,0 +1,1306 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"table",
+				"table.remove\t(table [, pos])"
+			],
+			[
+				"Inventory",
+				"Inventory"
+			],
+			[
+				"Projectil",
+				"ProjectileSystem"
+			],
+			[
+				"Ability",
+				"AbilityTimer"
+			],
+			[
+				"Health",
+				"HealthSystem"
+			],
+			[
+				"ZoomDamp",
+				"ZoomDamping"
+			],
+			[
+				"players",
+				"playersAlive"
+			],
+			[
+				"invoke",
+				"invokeAction"
+			],
+			[
+				"Player",
+				"PlayerSystem"
+			],
+			[
+				"jumps",
+				"jumpsAvailable"
+			],
+			[
+				"double",
+				"doubleTapDebounce"
+			],
+			[
+				"Move",
+				"MovementSystem"
+			],
+			[
+				"invk",
+				"invokeAction"
+			],
+			[
+				"ActionSy",
+				"ActionSystem"
+			],
+			[
+				"jump",
+				"jumpDebounce"
+			],
+			[
+				"cool",
+				"love.graphics.setColor"
+			],
+			[
+				"clea",
+				"love.graphics.clear"
+			],
+			[
+				"can",
+				"love.graphics.newCanvas"
+			],
+			[
+				"requi",
+				"require"
+			],
+			[
+				"doubleTa",
+				"doubleTapTimer"
+			],
+			[
+				"abil",
+				"ability"
+			],
+			[
+				"dobue",
+				"doubleTapFocus"
+			],
+			[
+				"dob",
+				"doubleTapDebounce"
+			],
+			[
+				"doubl",
+				"doubleTapDebounce"
+			],
+			[
+				"doubleTap",
+				"doubleTapFocus"
+			],
+			[
+				"dbou",
+				"doubleTapDebounce"
+			],
+			[
+				"compon",
+				"components"
+			],
+			[
+				"abilti",
+				"abilities"
+			],
+			[
+				"stomp",
+				"Stomp"
+			],
+			[
+				"timeDown",
+				"timeDownStart"
+			],
+			[
+				"required",
+				"requiredComponents"
+			],
+			[
+				"random",
+				"love.math.setRandomSeed"
+			],
+			[
+				"get",
+				"love.audio.getPosition"
+			],
+			[
+				"Animator",
+				"AnimatorSystem"
+			],
+			[
+				"animation",
+				"animationRate"
+			],
+			[
+				"time",
+				"love.timer.getTime"
+			],
+			[
+				"require",
+				"requireDirectory"
+			],
+			[
+				"fina",
+				"finalCheck"
+			],
+			[
+				"segment",
+				"segmentAngle"
+			],
+			[
+				"segMent",
+				"segmentAngle"
+			],
+			[
+				"timer",
+				"love.timer.getDelta"
+			],
+			[
+				"renderQu",
+				"renderQueueDepth"
+			],
+			[
+				"renderQueu",
+				"renderQueueDepthReverse"
+			],
+			[
+				"renderQueue",
+				"renderQueueDepth"
+			],
+			[
+				"renderQueueDept",
+				"renderQueueDepthReverse"
+			],
+			[
+				"color",
+				"love.graphics.setColor"
+			],
+			[
+				"poin",
+				"love.graphics.point"
+			],
+			[
+				"pol",
+				"love.graphics.polygon"
+			],
+			[
+				"line",
+				"love.graphics.line"
+			],
+			[
+				"cam",
+				"CameraSystem"
+			],
+			[
+				"Playe",
+				"PlayerSystem"
+			],
+			[
+				"check",
+				"checkEntityComponents"
+			],
+			[
+				"closest",
+				"closestLines"
+			],
+			[
+				"plat",
+				"platformsDist"
+			],
+			[
+				"avgPoint",
+				"avgPointY"
+			],
+			[
+				"avgPo",
+				"avgPointX"
+			],
+			[
+				"curren",
+				"currentPlatform"
+			],
+			[
+				"avgPoin",
+				"avgPointX"
+			],
+			[
+				"thresh",
+				"threshholdY"
+			],
+			[
+				"entiti",
+				"entities"
+			],
+			[
+				"removeEn",
+				"removeEntityQueue"
+			],
+			[
+				"removeEntity",
+				"removeEntityQueue"
+			],
+			[
+				"entities",
+				"entitiesId"
+			],
+			[
+				"math",
+				"math.atan\t(x)"
+			],
+			[
+				"closestPlat",
+				"closestPlatformIndex"
+			],
+			[
+				"closestPla",
+				"closestPlatforms"
+			],
+			[
+				"linesDist",
+				"linesDistPlatform"
+			],
+			[
+				"closestLines",
+				"closestLinesPlatform"
+			],
+			[
+				"Platform",
+				"PlatformSystem"
+			],
+			[
+				"set",
+				"love.graphics.setLineWidth"
+			],
+			[
+				"print",
+				"love.graphics.print"
+			],
+			[
+				"push",
+				"love.graphics.push"
+			],
+			[
+				"update",
+				"updateEntities"
+			],
+			[
+				"subscribe",
+				"subscribeToEvent"
+			],
+			[
+				"applForce",
+				"applyForceQueue"
+			],
+			[
+				"applyForce",
+				"applyForceQueue"
+			],
+			[
+				"FPS",
+				"FPSLISTON"
+			],
+			[
+				"rect",
+				"love.graphics.rectangle"
+			],
+			[
+				"compo",
+				"component"
+			],
+			[
+				"compone",
+				"component"
+			],
+			[
+				"reuire",
+				"requireDirectory"
+			],
+			[
+				"drawF",
+				"cursorDrawFunction"
+			],
+			[
+				"structures",
+				"structuresInRangeId"
+			],
+			[
+				"structuresinRan",
+				"structuresInRangeId"
+			],
+			[
+				"structu",
+				"structuresInRange"
+			],
+			[
+				"connections",
+				"connectionsId"
+			],
+			[
+				"connectio",
+				"connectionsId"
+			],
+			[
+				"classes",
+				"classesi"
+			],
+			[
+				"structure",
+				"structureClasses"
+			],
+			[
+				"structur",
+				"structureConnectionType2"
+			],
+			[
+				"updateIns",
+				"updateInstancesQueued"
+			],
+			[
+				"que",
+				"updateStructuresQueued"
+			],
+			[
+				"Structure",
+				"StructureManager"
+			],
+			[
+				"Stuctu",
+				"StructureManager"
+			],
+			[
+				"connec",
+				"connectedToi"
+			],
+			[
+				"connect",
+				"connectedTo"
+			],
+			[
+				"connected",
+				"connectedToi"
+			],
+			[
+				"link",
+				"linkNodes"
+			],
+			[
+				"delink",
+				"delinkQueue"
+			],
+			[
+				"posOver",
+				"posOverY"
+			],
+			[
+				"guiElem",
+				"guiElement"
+			],
+			[
+				"object",
+				"objectListGui"
+			],
+			[
+				"finish",
+				"finishActivating"
+			],
+			[
+				"guiElemet",
+				"guiElements"
+			],
+			[
+				"guiElemt",
+				"guiElements"
+			],
+			[
+				"activating",
+				"activatingUpdate"
+			],
+			[
+				"camera",
+				"cameraPosition"
+			],
+			[
+				"GuiEni",
+				"GuiGuiEntity"
+			],
+			[
+				"display",
+				"displayNormalized"
+			],
+			[
+				"keyBindin",
+				"keyBindingsIndex"
+			],
+			[
+				"mouse",
+				"love.mouse.isDown"
+			],
+			[
+				"drag",
+				"dragPosition"
+			],
+			[
+				"m",
+				"math.sin\t(x)"
+			],
+			[
+				"objects",
+				"objectsNameIndex"
+			],
+			[
+				"removeQueue",
+				"removeQueueIndex"
+			],
+			[
+				"objectsIndex",
+				"objectsIdIndex"
+			],
+			[
+				"mouseBindin",
+				"mouseBindingsCallbacksIsDebounce"
+			],
+			[
+				"mouseBindingsCall",
+				"mouseBindingsCallbacksDebounce"
+			],
+			[
+				"mouseBindings",
+				"mouseBindingsCallbacksIsDebounce"
+			],
+			[
+				"keyBindings",
+				"keyBindingsDebounce"
+			],
+			[
+				"setWidth",
+				"love.graphics.setLineWidth"
+			],
+			[
+				"width",
+				"love.graphics.setLineWidth"
+			],
+			[
+				"updateFun",
+				"updatetFunctions"
+			],
+			[
+				"setTarg",
+				"setTargetZoom"
+			],
+			[
+				"drawfu",
+				"drawFunctions"
+			],
+			[
+				"setWi",
+				"love.graphics.setLineWidth"
+			],
+			[
+				"keyBinding",
+				"keyBindings"
+			],
+			[
+				"componen",
+				"component"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 5434,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "states/game.lua",
+			"settings":
+			{
+				"buffer_size": 11712,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/items/Ammo.lua",
+			"settings":
+			{
+				"buffer_size": 754,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "systems/RangedWeaponSystem.lua",
+			"settings":
+			{
+				"buffer_size": 3946,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "systems/InventorySystem.lua",
+			"settings":
+			{
+				"buffer_size": 5443,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "systems/ProjectileSystem.lua",
+			"settings":
+			{
+				"buffer_size": 3504,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/abilities/Stomp.lua",
+			"settings":
+			{
+				"buffer_size": 9947,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/Inventory.lua",
+			"settings":
+			{
+				"buffer_size": 413,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Lua Love/LuaLove.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Love2D"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"build",
+				"Build With: LuaLove - Love2D"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 565.0
+	},
+	"console":
+	{
+		"height": 517.0,
+		"history":
+		[
+			"git clone git://github.com/szensk/subllualove.git'",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/abilities",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/enemies",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/slam-master",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/windfield-master",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/sound",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/states",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems"
+	],
+	"file_history":
+	[
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/abilities/Stomp.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/ItemSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/InventorySystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/ActionSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items/Ammo.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Shooter ASAP/main.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/PhysicsSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/HealthSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/ProjectileSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/CameraComponent.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items/ItemComponent.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/InputSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/slam-master/slam.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/RangedWeaponSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Decay.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/DecaySystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/slam-master/README.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Body.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/MovementSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/PlayerSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items/Ranged.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items/Projectile.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items/Melee.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items/Activatable.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/EnemySystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Inventory.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/states/game.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/items/Parent.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/AbilitySystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/enemies/Enemy.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/abilities/AbilityComponent.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Health.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/abilities/AbilityConstructor.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/CameraSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Movement.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Space Game Copy/classes/player.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/states/test.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/baseEntity.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/states/test.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/Systems/Old/Core Systems/baseEntity.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/Systems/renderSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/main.lua",
+		"/C/Users/Yeahyay/AppData/Local/Google/Chrome Beta/User Data/Default/File System/003/p/00/00000000",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Player.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Upright.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/systems/AnimatorSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/roomy-master/roomy.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/main.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/AnimatorComponent.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/components/Mobile.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/windfield-master/README.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/windfield-master/windfield/init.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/bump.lua-master/README.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/autobatch-master/autobatch.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/platformingSystems/physicsSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/tick-master/README.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/tick.lua",
+		"/C/My Stuff/Game Development/Love2d/libraries/tick.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01/aaa stuff/Systems/platformingSystems/physicsSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/Lib/Concord-master/lib/component.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/Lib/Concord-master/lib/pool.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/Lib/Concord-master/lib/entity.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/lib/30log-master/30log-clean.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/Lib/roomy-master/main.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/globalFunctions.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Visual Novel Engine v0.01/.git/COMMIT_EDITMSG",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/states/game.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/main.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/knife-master/readme.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/hump-master/README.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/hump-master/camera.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/globalRequired.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/Systems/Core Systems/entitySystemManager.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/Systems/Core Systems/baseSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/.git/COMMIT_EDITMSG",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/.gitignore",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/brinevector2D/brinevector.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/brinevector3D/brinevector3D.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/tick.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/Systems/itemSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/Systems/inputSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/Systems/inventorySystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/brinevector3D/README.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/brinevector-master/brinevector.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/brinevector-master/cheatsheet.md",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/baseSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/renderSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/playerSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/entitySystemManager.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/cameraSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/gameInits.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Isometric Platformer v0.01/lib/flux.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/platformingSystems/platformSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/inventorySystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/itemSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/lib/tick.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/aaa stuff/Systems/entitySystem.lua",
+		"/C/My Stuff/Games/CrossCode.v1.0.2.1/assets/data/animations/player.json",
+		"/C/My Stuff/Game Development/Love2d/Projects/Platformer 1/lib/vector2.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/platformingSystems/physicsSystem.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/playerSystem.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/baseEntity.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/body.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/baseSystem.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/cameraSystem.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/renderSystem.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/platformingSystems/platformSystem.lua",
+		"/C/Users/Yeahyay/Dropbox/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/healthSystem.lua",
+		"/F/Programming and Game Dev/LOVE/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/playerSystem.lua",
+		"/F/Programming and Game Dev/LOVE/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/platformingSystems/platformSystem.lua",
+		"/F/Programming and Game Dev/LOVE/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/main.lua",
+		"/F/Programming and Game Dev/LOVE/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/platformingSystems/physicsSystem.lua",
+		"/F/Programming and Game Dev/LOVE/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/renderSystem.lua",
+		"/F/Programming and Game Dev/LOVE/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/states/test.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/cameraSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/renderSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/states/test.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/lib/vector2.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/baseSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/states/test.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01/states/test.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/platformingSystems/physicsSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/aaa stuff/Systems/platformingSystems/platformSystem.lua",
+		"/C/My Stuff/Game Development/Love2d/Projects/Steampunk Dragon Game thingy v0.01 11-25-18/main.lua",
+		"/C/Users/owner/Dropbox/Boxifier/Steampunk Dragon Game thingy v0.01/aaa stuff/Systems/platformingSystems/platformSystem.lua",
+		"/C/Users/owner/Dropbox/Boxifier/Steampunk Dragon Game thingy v0.01/aaa stuff/Systems/renderSystem.lua",
+		"/C/Users/owner/Dropbox/Boxifier/Steampunk Dragon Game thingy v0.01/states/test.lua",
+		"/C/Users/owner/Dropbox/Boxifier/Steampunk Dragon Game thingy v0.01/main.lua"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 773.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"--[[",
+			"dt",
+			"1",
+			"64",
+			"item",
+			"self",
+			"Items ",
+			"Items",
+			"8",
+			"15",
+			"3",
+			"15",
+			"Smg",
+			"5",
+			"1",
+			"Pistol",
+			"fireRanged",
+			"activateItem",
+			"fire",
+			"fireRanged",
+			"total",
+			"Total",
+			"pitch",
+			"quadin",
+			"position",
+			"boom",
+			"menuback",
+			"menuselect",
+			"menuback",
+			"menuselect",
+			"boom",
+			"pew",
+			"2",
+			"6",
+			"duplii",
+			"clone",
+			"accessing",
+			"get",
+			"8",
+			"64",
+			"newWorld",
+			"angle",
+			"+",
+			"velX",
+			"set",
+			"200",
+			"0",
+			"5",
+			"100",
+			"8",
+			"1",
+			"range",
+			"setPreSolve",
+			"start",
+			"20",
+			"()",
+			"newRectangleCollider",
+			"new",
+			"mousePos",
+			"angle",
+			"sizeScaled",
+			"anged",
+			"rangedweaponsystem",
+			"RangedWeaponSystem",
+			"weapon",
+			"equipped",
+			"activateItem",
+			"ItemComponent",
+			"update",
+			"entity",
+			"type",
+			"drawItem",
+			"constant",
+			"start",
+			"fire",
+			"invoke",
+			"self",
+			"inventoryLeft",
+			"Items",
+			"canvases[4]",
+			"game.canvases[3]",
+			"canvases[2]",
+			"canvases[1]",
+			"4",
+			"0.4",
+			"0",
+			"10",
+			"size",
+			"500000",
+			"mas",
+			"3000",
+			"1500",
+			"100",
+			"20",
+			"100",
+			"+",
+			"x+",
+			"size",
+			"inventory",
+			"do",
+			"1,",
+			"=1",
+			"generic",
+			"itemsystem",
+			"ItemSystem",
+			" ",
+			",",
+			"200",
+			"64",
+			"0",
+			"10",
+			"update",
+			"enemy",
+			"damp",
+			"damoing",
+			"linear'",
+			"linear",
+			"damage",
+			"100",
+			"PostSolve",
+			"postsolve",
+			"game objects",
+			"collision ",
+			"collision",
+			"collision b",
+			"collision between",
+			"collision",
+			"class"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4798,
+								4798
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua Love/LuaLove.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2447.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "states/game.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "components/items/Ammo.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "systems/RangedWeaponSystem.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3318,
+								3318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 177.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "systems/InventorySystem.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "systems/ProjectileSystem.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1685,
+								1685
+							],
+							[
+								1719,
+								1719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 349.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "components/abilities/Stomp.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8614,
+								8614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "components/Inventory.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 277.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 230.0
+	},
+	"output.find_results":
+	{
+		"height": 158.0
+	},
+	"pinned_build_system": "Packages/Lua Love/LuaLove.sublime-build",
+	"project": "Visual Novel Engine.sublime-project",
+	"replace":
+	{
+		"height": 55.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\My Stuff\\Game Development\\Love2d\\Projects\\Top Down Shooter 1\\Top Down Shooter.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
