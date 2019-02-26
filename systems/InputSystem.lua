@@ -7,6 +7,7 @@ local InputSystem = System({Player, "withPlayer"})
 		InputSystem.keyInputs[i].key = key
 		InputSystem.keyInputs[i].down = false
 	end]]
+	InputSystem.gamepadInputs = {}
 	InputSystem.keyDebounce = {}
 	InputSystem.mouseDebounce = {}
 	inputsystem = InputSystem()

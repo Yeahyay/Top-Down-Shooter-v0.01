@@ -5,4 +5,5 @@ Health = Component(function(self, health, maxHealth, regenRate, regenRateDelay)
 	self.RegenRate = regenRate or 5;
 	self.RegenRateDelay = regenRateDelay or 0;
 	self.RegenRateDelayStart = 0;
+	self.LastChanged = timer;
 end)

@@ -1,1 +1,1 @@
-Drawable = Component(function(self) end)
+Drawable = Component(function(self) self.Onscreen = true end)

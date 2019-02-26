@@ -1,8 +1,9 @@
 Movement = Component(function(self, initSpeed, maxSpeed, speed, time, maxJumps)
-	self.maxVelocity = Vector2.new(400, math.huge)
-	self.speed = Vector2.new(250, 50)
+	self.maxVelocity = maxSpeed or Vector2.new(400, 400)
+	self.speed = speed or Vector2.new(2500, 2500)
 	
-	self.isJumping = true
+	self.isDamping = true
+	--[[self.isJumping = true
 	self.jumpDebounce = false
 	self.jumpInitSpeed = initSpeed or 400
 	self.jumpMaxSpeed = maxSpeed or 600
@@ -12,5 +13,5 @@ Movement = Component(function(self, initSpeed, maxSpeed, speed, time, maxJumps)
 	self.maxJumpsDefault = maxJumps or 1
 	self.maxJumps = 5
 	self.jumpsAvailable = 0
-	self.jumps = 0
+	self.jumps = 0]]
 end)

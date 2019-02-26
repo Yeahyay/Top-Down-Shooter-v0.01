@@ -1,0 +1,1 @@
+OnScreen = Component(function(self) self.Value = false end)

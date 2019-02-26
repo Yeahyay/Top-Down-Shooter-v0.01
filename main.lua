@@ -55,6 +55,29 @@ setfenv(1, Game)
 	bump = require("lib/bump-master/bump")
 	--require("lib/autobatch-master/autobatch")
 	slam = require("lib/slam-master/slam")
+	Luven = require("lib/Luven-master/luven")
+
+	simpleLights = require("lib/simple-love-lights-master/lights")
+	--lightworld = require("lib/light_world/lib")
+	--[[Shadows = require("shadows")
+	LightWorld	=	require("shadows.LightWorld")
+	Light			=	require("shadows.Light")
+	NormalShadow	=	require("shadows.ShadowShapes.NormalShadow")
+	HeightShadow	=	require("shadows.ShadowShapes.HeightShadow")
+	Star			=	require("shadows.Star")
+	BodyShadow	=	require("shadows.Body")
+	PolygonShadow	=	require("shadows.ShadowShapes.PolygonShadow")
+	CircleShadow	=	require("shadows.ShadowShapes.CircleShadow")
+	ImageShadow	=	require("shadows.ShadowShapes.ImageShadow")]]
+	--Shadows = require("lib/shadows").init
+	--shadows = require("lib/shadows/init")
+	--Light = require("shadows.Light")
+	--Body = require("shadows.Body")
+	--PolygonShadow = require("shadows.ShadowShapes.PolygonShadow")
+	--CircleShadow = require("shadows.ShadowShapes.CircleShadow")
+	--print(Shadows)
+	--lightworld = require("lib.shadows.LightWorld")
+
 	Concord = require("lib/Concord-master/lib")
 		Concord.init({
 			useEvents = false
@@ -126,11 +149,30 @@ resources = nil]]
 	love.audio.setVolume(1)
 	love.graphics.setFont(fonts.SourceSansProRegular)
 	love.math.setRandomSeed(1)--love.timer.getTime())
+	love.audio.setVolume(0.8)
+	love.audio.setEffect("reverb", {type="reverb",
+		gain = 0.6,
+		highgain = 1,
+		density = 0.6,
+		decayhighratio = 1.1,
+		diffusion = 0.6,
+		decaytime = 1.5,
+	})
+
+--INIT GAMEPAD
 
 GameInstance = Instance()
+--[[LightWorld = lightworld{
+	ambient = {0.1, 0.1, 0.1, 1}
+}]]
 GameWorld = wf.newWorld(0, 0, true)
 	love.physics.setMeter(64)
 --GameWorld = bump.newWorld(50)
+
+light = addLight(screenSize.x/2, screenSize.y/2, 2000, 1, 1, 1)
+light = addLight(screenSize.x, screenSize.y, 2000, 1, 1, 1)
+
+testImage = love.graphics.newImage("sprites/Test Texture 1.png")
 
 requireDirectory("components")
 requireDirectory("components/abilities")
@@ -138,7 +180,7 @@ requireDirectory("components/enemies")
 requireDirectory("components/items")
 requireDirectory("systems")
 
-GameWorld:setGravity(0, -980.665)
+--GameWorld:setGravity(0, -980.665)
 GameWorld:addCollisionClass("Player", {enter = {"World", "Player"}})
 GameWorld:addCollisionClass("Enemy", {enter = {"World", "Player"}})
 GameWorld:addCollisionClass("Item", {ignores = {"Player", "Enemy"}})
@@ -151,6 +193,7 @@ GameWorld:addCollisionClass("Null", {ignores = {"Player", "NPC", "World"}})
 --ground = {name = "ground", uuid = uuid()}
 ground = Entity("ground")
 	:give(Body, {"Rectangle"}, Vector2.new(0, -300), 0, Vector2.new(2000, 200), 1)
+	:give(Material, "metal")
 	:apply()
 GameInstance:addEntity(ground)
 --ground.Collider = GameWorld:newRectangleCollider(-1000, -400, 2000, 200)
@@ -164,9 +207,6 @@ stateManager = roomy.new()
 function love.update(dt)
 	FPS = 1/tick.dt
 end
-
---[[function love.draw()
-end]]
 
 function love.keypressed(key, scancode, isrepeat)
 	stateManager:emit("keyPressed", key, scancode, isrepeat)

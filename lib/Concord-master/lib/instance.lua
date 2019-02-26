@@ -218,18 +218,19 @@ function Instance:emit(eventName, ...)
    self:flush()
 
    local listeners = self.events[eventName]
+   local returnValue = {nil, nil, nil, nil}
 
    if listeners then
       for i = 1, #listeners do
          local listener = listeners[i]
 
          if listener.enabled then
-            listener.system[listener.callback](listener.system, ...)
+            returnValue[1], returnValue[2], returnValue[3], returnValue[4] = listener.system[listener.callback](listener.system, ...)
          end
       end
    end
 
-   return self
+   return returnValue[1], returnValue[2], returnValue[3], returnValue[4] --used to return the instance itself, now it returns everything from the callback
 end
 
 --- Removes all entities from the Instance

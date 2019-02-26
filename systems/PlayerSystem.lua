@@ -1,26 +1,23 @@
 PlayerSystem = System({Player, "playersAlive"}, {Player, Body, "withBody"}, {Body, Drawable, Animator, "drawable"})
 	playerSystem = PlayerSystem()
-	function PlayerSystem:left(entity)
+	playerSystem.Players = {}
+	function PlayerSystem:leftStart(entity)
 		if entity:has(Animator) then
 			local animator = entity:get(Animator)
 			if animator.debounce ~= 1 then
-				local body = v:get(Body)
-				if body.isGrounded then
-					animator.debounce = 1
-					animator.animation:flipH()
-				end
+				local body = entity:get(Body)
+				animator.debounce = 1
+				animator.animation:flipH()
 			end
 		end
 	end
-	function PlayerSystem:right(entity)
+	function PlayerSystem:rightStart(entity)
 		if entity:has(Animator) then
 			local animator = entity:get(Animator)
 			if animator.debounce ~= 2 then
-				local body = v:get(Body)
-				if body.isGrounded then
-					animator.debounce = 2
-					animator.animation:flipH()
-				end
+				local body = entity:get(Body)
+				animator.debounce = 2
+				animator.animation:flipH()
 			end
 		end
 	end
@@ -41,7 +38,7 @@ PlayerSystem = System({Player, "playersAlive"}, {Player, Body, "withBody"}, {Bod
 			end
 		end
 	end
-	function PlayerSystem:draw()
+	function PlayerSystem:drawUI()
 		for k, v in pairs(self.withBody.objects) do
 			local ability = v:get(Ability)
 			local body = v:get(Body)
@@ -64,34 +61,35 @@ PlayerSystem = System({Player, "playersAlive"}, {Player, Body, "withBody"}, {Bod
 	end
 	function PlayerSystem:entityRemoved(entity)
 		GameInstance:emit("playerDied", entity)
+
 	end
 	function PlayerSystem:respawn(player)
 		if #self.playersAlive.objects < 1 then
-			local player = Entity("Player"..#self.playersAlive.objects)
-				:give(Body, {"BSGRectangle", 20}, Vector2.new(0, 500), 0, Vector2.new(64, 64), 10)
+			local player = Entity("Player"..#self.playersAlive.objects+1)
+				:give(Body, {"BSGRectangle", 20}, Vector2.new(math.random2(-1000, 1000), math.random2(-1000, 1000)), 0, Vector2.new(64, 64), 5)
 				:give(Animator, playerImage, Vector2.new(2, 2), Vector2.new(32, 32), {"1-3", "1-3", 1, 4}, 1/60)
-				:give(Player, player)
 				:give(Movement)
 				:give(Health, 200, 200, 5, 1)
-				:give(Ability, true, {Stomp, Dash})
+				:give(Ability, true, {Dash})
 				:give(Upright, 250000)
 				:give(Inventory, 100, 100, 26)
 				:give(Drawable)
+				:give(Light, {0.8, 0.8, 0.8}, 10)
 				:apply()
-				--player:get(Body).Collider:setFixedRotation(true)
+				player:get(Body).Collider:setFixedRotation(true)
 				player:get(Body).Collider:setCollisionClass("Player")
-				--player:get(Body).Collider:setGravityScale(0)
-				player:get(Body).Collider:setMass(5)
 				player:get(Body).Collider:setFriction(0.7)
 				player:get(Body).Collider:setRestitution(0.3)
-				player:get(Body).Collider:setAngularDamping(0.5)
+				--player:get(Body).Collider:setAngularDamping(0.5)
+				player:give(Player, #self.playersAlive.objects+1, player):apply()
 				GameInstance:addEntity(player)
+				self.Players[#self.playersAlive.objects] = player
 		end
 	end
 GameInstance:addSystem(playerSystem, "update", "update", true)
 GameInstance:addSystem(playerSystem, "respawn", "respawn", true)
 --GameInstance:addSystem(playerSystem, "keypressed", "keypressed", true)
 --GameInstance:addSystem(playerSystem, "keyreleased", "keyreleased", true)
-GameInstance:addSystem(movementsystem, "left", "left", true)
-GameInstance:addSystem(movementsystem, "right", "right", true)
-GameInstance:addSystem(playerSystem, "draw", "draw", true)
+GameInstance:addSystem(playerSystem, "leftStart", "leftStart", true)
+GameInstance:addSystem(playerSystem, "rightStart", "rightStart", true)
+GameInstance:addSystem(playerSystem, "drawUI", "drawUI", true)

@@ -9,7 +9,6 @@ local ActionSystem = System()
 	end
 	function ActionSystem:invokeAction(action, actionType, entity)
 		local actionData
-		--print(action, actionType)
 		if actionType == 1 then
 			actionData = self.keyActions[action]
 		elseif actionType == 2 then
@@ -126,13 +125,15 @@ local ActionSystem = System()
 	end
 	actionsystem:newAction("left", "a", nil, "constant", 1, true)
 	actionsystem:newAction("right", "d", nil, "constant", 1, true)
+	actionsystem:newAction("leftStart", "a", nil, "start", 1, true)
+	actionsystem:newAction("rightStart", "d", nil, "start", 1, true)
 	actionsystem:newAction("up", "w", nil, "constant", 1, true)
-	actionsystem:newAction("stomp", "s", nil, "start", 1, true)
-	actionsystem:newAction("jump", "space", nil, "constant", 1, true)
-	actionsystem:newAction("jumpStop", "space", nil, "stop", 1, true)
+	actionsystem:newAction("down", "s", nil, "constant", 1, true)
+	--actionsystem:newAction("jump", "space", nil, "constant", 1, true)
+	--actionsystem:newAction("jumpStop", "space", nil, "stop", 1, true)
 	actionsystem:newAction("respawn", "p", nil, "start", 1, false)
-	actionsystem:newAction("dashLeft", "a", nil, "start", 2, true)
-	actionsystem:newAction("dashRight", "d", nil, "start", 2, true)
+	--actionsystem:newAction("dashLeft", "a", nil, "start", 2, true)
+	--actionsystem:newAction("dashRight", "d", nil, "start", 2, true)
 	actionsystem:newAction("dropAll", "g", nil, "start", 1, true)
 	actionsystem:newAction("inventoryLeft", "q", nil, "start", 1, true)
 	actionsystem:newAction("inventoryRight", "e", nil, "start", 1, true)

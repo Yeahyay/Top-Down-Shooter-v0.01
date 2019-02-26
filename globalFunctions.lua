@@ -46,6 +46,8 @@ function math.powerOfTwo(a)
 end
 
 function math.clamp(x, min, max)
+	min = min or -math.huge
+	max = max or math.huge
 	if (x < min) then
 		x = min
 	elseif (x > max) then
